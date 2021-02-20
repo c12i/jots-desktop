@@ -4,7 +4,7 @@
     "description": "An Electron client for jots",
     "main": "src/index.js",
     "scripts": {
-        "start": "electron src/index.js",
+        "start": "electron src/main.js",
         "pack": "electron-builder --dir",
         "dist": "electron-builder",
         "lint": "eslint \"src/**/*.js\" --fix",
