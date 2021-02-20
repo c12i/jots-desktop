@@ -16,7 +16,7 @@ Run
 npm start
 ```
 
-Build distributable:
+Build distributable (Windows, Mac & Linux):
 
 ```
 npm run dist
