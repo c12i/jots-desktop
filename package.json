@@ -6,7 +6,7 @@
     "scripts": {
         "start": "electron src/main.js",
         "pack": "electron-builder --dir",
-        "dist": "electron-builder --wml",
+        "dist": "electron-builder -wml",
         "lint": "eslint \"src/**/*.js\" --fix",
         "format": "prettier --write \"src/**/*.js\" \"test/**/*.js\""
     },
