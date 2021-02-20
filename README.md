@@ -15,3 +15,9 @@ Run
 ```
 npm start
 ```
+
+Build distributable:
+
+```
+npm run dist
+```

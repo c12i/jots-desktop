@@ -2,13 +2,20 @@
     "name": "jots-desktop",
     "version": "0.1.0",
     "description": "An Electron client for jots",
-    "main": "src/index.js",
+    "main": "src/main.js",
     "scripts": {
         "start": "electron src/main.js",
         "pack": "electron-builder --dir",
-        "dist": "electron-builder",
+        "dist": "electron-builder --wml",
         "lint": "eslint \"src/**/*.js\" --fix",
         "format": "prettier --write \"src/**/*.js\" \"test/**/*.js\""
+    },
+    "build": {
+        "appId": "gq.jots",
+        "productName": "jots",
+        "directories": {
+            "buildResources": "resources"
+        }
     },
     "pre-commit": [
         "format",
